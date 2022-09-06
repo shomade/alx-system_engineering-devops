@@ -1,0 +1,13 @@
+mod: cannot access '8-james_Bond': No such file or directory
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# vi 9-john_Doe
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# chomd u+x 9-john_Doe
+bash: chomd: command not found
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# chomd u+x 9-John_Doe
+bash: chomd: command not found
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# chod u+x 9-John_Doe
+bash: chod: command not found
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# chomd u+x 9-John_Doe
+bash: chomd: command not found
+root@b1ffb4d04f0a:/alx-system_engineering-devops/0x01-shell_permissions# vi
+#!/bin/bash
+chmod --reference=olleh hello
